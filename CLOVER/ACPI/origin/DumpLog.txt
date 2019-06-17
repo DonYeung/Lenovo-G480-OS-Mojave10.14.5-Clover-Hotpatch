@@ -1,0 +1,79 @@
+37:193  33:187  Found UEFI Acpi 2.0 RSDP at CAFFE014
+37:193  0:000  Saving ACPI tables from RSDP CAFFE014 to EFI\CLOVER\ACPI\origin ...
+37:193  0:000   CAFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+37:199  0:005    (Xsdt: CAFFE148, Rsdt: CAFFE0C0)
+37:199  0:000    CAFFE148: 'XSDT', 'CB-01', Rev: 1, Len: 172 -> XSDT.aml
+37:202  0:002    CAFFE0C0: 'RSDT', 'CB-01', Rev: 1, Len: 104 -> RSDT.aml
+37:205  0:002    Tables in Xsdt: 17
+37:205  0:000    0. CAFED000: 'FACP', 'CB-01', Rev: 5, Len: 268 -> FACP.aml
+37:208  0:002        (Dsdt: CAFF0000, Facs: CAF7C000, XDsdt: CAFF0000, XFacs: 0)
+37:208  0:000        CAFF0000: 'DSDT', 'IVB-CPT', Rev: 2, Len: 42961 -> DSDT.aml
+37:212  0:004        CAF7C000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+37:215  0:002    1. CAFFD000: 'SLIC', 'CB-01', Rev: 1, Len: 374 -> SLIC.aml
+37:217  0:002    2. CAFFB000: 'SSDT', 'PtidDevc', Rev: 1, Len: 4200 -> SSDT-0-PtidDevc.aml
+37:220  0:002    3. CAFEF000: 'ASF!', 'CB-01', Rev: 32, Len: 165 -> ASF!.aml
+37:223  0:002    4. CAFEC000: 'HPET', 'CB-01', Rev: 1, Len: 56 -> HPET.aml
+37:226  0:002    5. CAFEB000: 'APIC', 'CB-01', Rev: 1, Len: 152 -> APIC.aml
+37:229  0:002    6. CAFEA000: 'MCFG', 'CB-01', Rev: 1, Len: 60 -> MCFG.aml
+37:232  0:002    7. CAFE9000: 'FPDT', 'CB-01', Rev: 1, Len: 100 -> FPDT.aml
+37:235  0:002    8. CAFE8000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474 -> SSDT-1-Cpu0Ist.aml
+37:241  0:005    9. CAFE7000: 'SSDT', 'CpuPm', Rev: 1, Len: 2706 -> SSDT-2-CpuPm.aml (Found hidden SSDT 4 pcs)
+37:244  0:002        * BAABB018: 'SXCS', ' ³«º', Rev: 160, Len: 0  53 58 43 53 00 00 00 00 A0 2F AB BA 00 00 00 00 
+37:244  0:000        * CAE8EA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 83 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x2_0-ApIst.aml
+37:247  0:003        * CAE8D018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 E5 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-x2_1-Cpu0Cst.aml
+37:250  0:002        * CAE8CD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 F9 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+37:253  0:003  
+37:253  0:000    10. CAFE6000: 'UEFI', 'CB-01', Rev: 1, Len: 62 -> UEFI.aml
+37:256  0:002    11. CAFE5000: 'UEFI', 'COMBUF', Rev: 1, Len: 66 -> UEFI.aml
+37:260  0:004    12. CAFE4000: 'POAT', 'CB-01', Rev: 3, Len: 85 -> POAT.aml
+37:263  0:002    13. CAFE3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 2354 -> SSDT-3-NvOptTbl.aml
+37:267  0:003    14. CAFE2000: 'UEFI', 'CB-01', Rev: 1, Len: 578 -> UEFI.aml
+37:271  0:004    15. CAFE1000: 'BGRT', 'CB-01', Rev: 0, Len: 56 -> BGRT.aml
+37:274  0:002    16. CAFE0000: 'DBG2', 'CB-01', Rev: 0, Len: 107 -> DBG2.aml
+37:277  0:002    Tables in Rsdt: 17
+37:277  0:000    0. CAFEE000: 'FACP', 'CB-01', Rev: 1, Len: 116 -> RSDT-FACP.aml
+37:281  0:003        (Dsdt: CAFF0000, Facs: CAF7C000)
+37:281  0:000        CAFF0000: 'DSDT', 'IVB-CPT', Rev: 2, Len: 42961
+37:282  0:000        CAF7C000: 'FACS', Ver: 1, Len: 64
+37:282  0:000    1. CAFFD000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+37:282  0:000    2. CAFFB000: 'SSDT', 'PtidDevc', Rev: 1, Len: 4200
+37:282  0:000    3. CAFEF000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+37:282  0:000    4. CAFEC000: 'HPET', 'CB-01', Rev: 1, Len: 56
+37:282  0:000    5. CAFEB000: 'APIC', 'CB-01', Rev: 1, Len: 152
+37:282  0:000    6. CAFEA000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+37:282  0:000    7. CAFE9000: 'FPDT', 'CB-01', Rev: 1, Len: 100
+37:282  0:000    8. CAFE8000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474
+37:282  0:000    9. CAFE7000: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
+37:282  0:000    10. CAFE6000: 'UEFI', 'CB-01', Rev: 1, Len: 62
+37:282  0:000    11. CAFE5000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+37:282  0:000    12. CAFE4000: 'POAT', 'CB-01', Rev: 3, Len: 85
+37:282  0:000    13. CAFE3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 2354
+37:282  0:000    14. CAFE2000: 'UEFI', 'CB-01', Rev: 1, Len: 578
+37:282  0:000    15. CAFE1000: 'BGRT', 'CB-01', Rev: 0, Len: 56
+37:282  0:000    16. CAFE0000: 'DBG2', 'CB-01', Rev: 0, Len: 107
+37:282  0:000  Found UEFI Acpi 1.0 RSDP at CAFFE000
+37:282  0:000  Printing ACPI tables from RSDP CAFFE000 ...
+37:282  0:000   CAFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+37:282  0:000    (Rsdt: CAFFE038)
+37:282  0:000    CAFFE038: 'RSDT', 'CB-01', Rev: 1, Len: 104
+37:282  0:000    Tables in Rsdt: 17
+37:282  0:000    0. CAFEE000: 'FACP', 'CB-01', Rev: 1, Len: 116
+37:282  0:000        (Dsdt: CAFF0000, Facs: CAF7C000)
+37:282  0:000        CAFF0000: 'DSDT', 'IVB-CPT', Rev: 2, Len: 42961
+37:283  0:000        CAF7C000: 'FACS', Ver: 1, Len: 64
+37:283  0:000    1. CAFFD000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+37:283  0:000    2. CAFFB000: 'SSDT', 'PtidDevc', Rev: 1, Len: 4200
+37:283  0:000    3. CAFEF000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+37:283  0:000    4. CAFEC000: 'HPET', 'CB-01', Rev: 1, Len: 56
+37:283  0:000    5. CAFEB000: 'APIC', 'CB-01', Rev: 1, Len: 152
+37:283  0:000    6. CAFEA000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+37:283  0:000    7. CAFE9000: 'FPDT', 'CB-01', Rev: 1, Len: 100
+37:283  0:000    8. CAFE8000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2474
+37:283  0:000    9. CAFE7000: 'SSDT', 'CpuPm', Rev: 1, Len: 2706
+37:283  0:000    10. CAFE6000: 'UEFI', 'CB-01', Rev: 1, Len: 62
+37:283  0:000    11. CAFE5000: 'UEFI', 'COMBUF', Rev: 1, Len: 66
+37:283  0:000    12. CAFE4000: 'POAT', 'CB-01', Rev: 3, Len: 85
+37:283  0:000    13. CAFE3000: 'SSDT', 'NvOptTbl', Rev: 1, Len: 2354
+37:283  0:000    14. CAFE2000: 'UEFI', 'CB-01', Rev: 1, Len: 578
+37:283  0:000    15. CAFE1000: 'BGRT', 'CB-01', Rev: 0, Len: 56
+37:283  0:000    16. CAFE0000: 'DBG2', 'CB-01', Rev: 0, Len: 107
